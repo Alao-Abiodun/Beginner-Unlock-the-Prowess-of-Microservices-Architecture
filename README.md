@@ -15,3 +15,7 @@
 ## Interface Segregation Principle 
 
 - Interface Segregation Principle means that a client should only apply for methods that is required to be implemented and not pushed to implement modules that is not required.
+
+## Dependencies Inversion Principle 
+
+- Dependencies Inversion Principle means that both high level and low level modules should be independent of each other which means that means they should depend on each other rather than to depends on an abstract module or interface module.
