@@ -1,6 +1,6 @@
 class UserProfile {
     constructor(userId: any) {
-        this.userId = userId;
+        console.log(`User ${userId}`)
     }
 
     loadProfile() {
@@ -14,7 +14,7 @@ class UserProfile {
 
 class UserPreferences {
     constructor(userId: any) {
-        this.userId = userId;
+        console.log(`User ${userId}`)
     }
 
     loadPreferences() {
@@ -28,7 +28,7 @@ class UserPreferences {
 
 class UserPayment {
     constructor(userId: any) {
-        this.userId = userId;
+        console.log(`User ${userId}`)
     }
 
     loadPayment() {

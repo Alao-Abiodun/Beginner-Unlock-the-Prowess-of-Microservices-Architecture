@@ -10,7 +10,7 @@ class Car {
 class Toyoto extends Car {
     constructor(name: string) {
         super();
-        this.name = name;
+        console.log(name);
     }
 
     draw() {
@@ -21,7 +21,7 @@ class Toyoto extends Car {
 class Benz extends Car {
     constructor(color: string) {
         super();
-        this.color = color;
+        console.log(color);
     }
 
     draw() {
@@ -32,6 +32,6 @@ class Benz extends Car {
 class Jeep extends Car {
     constructor(model: string) {
         super();
-        this.model = model;
+        console.log(model);
     }
 }
